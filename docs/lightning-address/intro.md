@@ -6,6 +6,8 @@
 
 In ZEUS v0.8.0 we are offering up a self-custodial lightning address that we're calling ZEUS Pay. This is the first ever offering of a self-custodial lightning address in a mobile app.
 
+Users need a 0 fee route from their node to Olympus in order to redeem ZEUS pay payments.
+
 ZEUS Pay leverages user-generated preimage hashes, hodl invoices, and the Zaplocker Nostr attestation scheme to allow users who may not be online 24/7 to receive payments to a static lightning address. Users just need to log in to their ZEUS wallets within 24 hours to claim the payments, otherwise they will be returned to the sender.
 
 We hope that more wallets adopt this scheme to improve the UX for their users. But even without any updates, ZEUS Pay can easily receive payments from all lightning-enabled Bitcoin wallets today.
